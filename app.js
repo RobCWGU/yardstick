@@ -1,3 +1,6 @@
+import React, { useState } from 'react';
+import { BarChart, Bar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+
 const CATEGORIES = {
   'Student Outcome-Oriented': [
     { name: 'Workforce-aligned', note: 'Does the course prepare students for real job roles? Look for industry partnerships, relevant skills, job placement data, and alignment with labor market needs.' },
